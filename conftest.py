@@ -205,7 +205,7 @@ from playwright.sync_api import sync_playwright
 def pytest_addoption(parser):
     parser.addoption("--based-url", default="http://localhost/opencart/upload")
     parser.addoption("--browser-name", default="chromium")   # 🔥 redenumit (NU --browser)
-    parser.addoption("--headed", action="store_true")
+    #parser.addoption("--headed", action="store_true")
     parser.addoption("--video-mode", default="retain-on-failure")
     parser.addoption("--screenshot-mode", default="only-on-failure")
     parser.addoption("--trace-mode", default="retain-on-failure")

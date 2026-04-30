@@ -1,0 +1,3 @@
+
+🚀 Browser: chromium | Headed: False
+🌐 Opening: http://localhost/opencart/upload
